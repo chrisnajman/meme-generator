@@ -1,6 +1,6 @@
 {
-  "name": "scrimba-meme-generator",
-  "homepage": "https://chrisnajman.github.io/scrimba-meme-generator/",
+  "name": "meme-generator",
+  "homepage": "https://chrisnajman.github.io/meme-generator/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
