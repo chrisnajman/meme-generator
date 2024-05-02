@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+    rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="/scrimba-meme-generator/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/scrimba-meme-generator/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/scrimba-meme-generator/favicon-16x16.png">
+  <link rel="manifest" href="/scrimba-meme-generator/site.webmanifest">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scrimba / Meme Generator</title>
+  <script type="text/javascript">
+    (function (l) {
+      if (l.search[1] === "/") {
+        var decoded = l.search
+          .slice(1)
+          .split("&")
+          .map(function (s) {
+            return s.replace(/~and~/g, "&");
+          })
+          .join("?");
+        window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+      }
+    })(window.location);
+  </script>
+  <script type="module" crossorigin src="/scrimba-meme-generator/assets/index-B4bP6of4.js"></script>
+  <link rel="stylesheet" crossorigin href="/scrimba-meme-generator/assets/index-1mmLHd6q.css">
+</head>
+
+<body>
+  <div id="root"></div>
+</body>
+
+</html>
