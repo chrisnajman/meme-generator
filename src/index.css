@@ -111,6 +111,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
+    text-align: center;
 
     & > div {
       display: flex;
